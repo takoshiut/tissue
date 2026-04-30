@@ -1,0 +1,32 @@
+[
+    {
+        "text": "りんご",
+        "category": "食べ物",
+        "difficulty": 1
+    },
+    {
+        "text": "バナナ",
+        "category": "食べ物",
+        "difficulty": 1
+    },
+    {
+        "text": "ねこ",
+        "category": "動物",
+        "difficulty": 1
+    },
+    {
+        "text": "いぬ",
+        "category": "動物",
+        "difficulty": 1
+    },
+    {
+        "text": "くるま",
+        "category": "乗り物",
+        "difficulty": 2
+    },
+    {
+        "text": "ロケット",
+        "category": "乗り物",
+        "difficulty": 3
+    }
+]
