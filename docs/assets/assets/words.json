@@ -1,32 +1,663 @@
 [
     {
-        "text": "りんご",
-        "category": "食べ物",
-        "difficulty": 1
+        "text": "ドラゴン",
+        "yomi": "どらごん",
+        "difficulty": 2,
+        "categories": [
+            "ファンタジー",
+            "生き物"
+        ]
+    },
+    {
+        "text": "橋",
+        "yomi": "はし",
+        "difficulty": 1,
+        "categories": [
+            "形 アーチ"
+        ]
+    },
+    {
+        "text": "虹",
+        "yomi": "にじ",
+        "difficulty": 1,
+        "categories": [
+            "形 アーチ"
+        ]
     },
     {
         "text": "バナナ",
-        "category": "食べ物",
-        "difficulty": 1
+        "yomi": "ばなな",
+        "difficulty": 1,
+        "categories": [
+            "形 アーチ",
+            "果物"
+        ]
     },
     {
-        "text": "ねこ",
-        "category": "動物",
-        "difficulty": 1
+        "text": "月",
+        "yomi": "つき",
+        "difficulty": 1,
+        "categories": [
+            "形 アーチ",
+            "形 まる"
+        ]
     },
     {
-        "text": "いぬ",
-        "category": "動物",
-        "difficulty": 1
+        "text": "山",
+        "yomi": "やま",
+        "difficulty": 1,
+        "categories": [
+            "形 さんかく"
+        ]
     },
     {
-        "text": "くるま",
-        "category": "乗り物",
-        "difficulty": 2
+        "text": "ぼうし",
+        "yomi": "ぼうし",
+        "difficulty": 2,
+        "categories": [
+            "形 さんかく",
+            "形 まる",
+            "形 ひも"
+        ]
     },
     {
-        "text": "ロケット",
-        "category": "乗り物",
-        "difficulty": 3
+        "text": "雪",
+        "yomi": "ゆき",
+        "difficulty": 1,
+        "categories": [
+            "形 つぶつぶ"
+        ]
+    },
+    {
+        "text": "納豆",
+        "yomi": "なっとう",
+        "difficulty": 2,
+        "categories": [
+            "形 つぶつぶ"
+        ]
+    },
+    {
+        "text": "砂",
+        "yomi": "すな",
+        "difficulty": 1,
+        "categories": [
+            "形 つぶつぶ"
+        ]
+    },
+    {
+        "text": "星",
+        "yomi": "ほし",
+        "difficulty": 1,
+        "categories": [
+            "形 つぶつぶ",
+            "形 さんかく"
+        ]
+    },
+    {
+        "text": "雨",
+        "yomi": "あめ",
+        "difficulty": 1,
+        "categories": [
+            "形 つぶつぶ",
+            "形 ぼう"
+        ]
+    },
+    {
+        "text": "花火",
+        "yomi": "はなび",
+        "difficulty": 2,
+        "categories": [
+            "形 つぶつぶ",
+            "形 まる",
+            "イベント"
+        ]
+    },
+    {
+        "text": "ごはん",
+        "yomi": "ごはん",
+        "difficulty": 2,
+        "categories": [
+            "形 つぶつぶ",
+            "形 まる",
+            "食事"
+        ]
+    },
+    {
+        "text": "アリ",
+        "yomi": "あり",
+        "difficulty": 2,
+        "categories": [
+            "形 つぶつぶ",
+            "虫"
+        ]
+    },
+    {
+        "text": "誕生日",
+        "yomi": "たんじょうび",
+        "difficulty": 3,
+        "categories": [
+            "形 なし",
+            "イベント"
+        ]
+    },
+    {
+        "text": "村",
+        "yomi": "むら",
+        "difficulty": 3,
+        "categories": [
+            "形 なし",
+            "建物",
+            "人"
+        ]
+    },
+    {
+        "text": "なわとび",
+        "yomi": "なわとび",
+        "difficulty": 2,
+        "categories": [
+            "形 ひも"
+        ]
+    },
+    {
+        "text": "へび",
+        "yomi": "へび",
+        "difficulty": 1,
+        "categories": [
+            "形 ひも",
+            "生き物"
+        ]
+    },
+    {
+        "text": "くつした",
+        "yomi": "くつした",
+        "difficulty": 1,
+        "categories": [
+            "形 ひも",
+            "形 ぼう"
+        ]
+    },
+    {
+        "text": "剣",
+        "yomi": "けん",
+        "difficulty": 1,
+        "categories": [
+            "形 ぼう",
+            "形 さんかく"
+        ]
+    },
+    {
+        "text": "えんぴつ",
+        "yomi": "えんぴつ",
+        "difficulty": 1,
+        "categories": [
+            "形 ぼう",
+            "形 さんかく"
+        ]
+    },
+    {
+        "text": "木",
+        "yomi": "き",
+        "difficulty": 1,
+        "categories": [
+            "形 ぼう",
+            "形 つぶつぶ",
+            "生き物"
+        ]
+    },
+    {
+        "text": "飛行機",
+        "yomi": "ひこうき",
+        "difficulty": 2,
+        "categories": [
+            "形 ぼう",
+            "形 まる"
+        ]
+    },
+    {
+        "text": "焼き鳥",
+        "yomi": "やきとり",
+        "difficulty": 2,
+        "categories": [
+            "形 ぼう",
+            "形 まる"
+        ]
+    },
+    {
+        "text": "おでん",
+        "yomi": "おでん",
+        "difficulty": 2,
+        "categories": [
+            "形 ぼう",
+            "形 まる",
+            "形 さんかく",
+            "形 四角"
+        ]
+    },
+    {
+        "text": "時計",
+        "yomi": "とけい",
+        "difficulty": 2,
+        "categories": [
+            "形 ぼう",
+            "形 まる",
+            "形 四角"
+        ]
+    },
+    {
+        "text": "神社",
+        "yomi": "じんじゃ",
+        "difficulty": 3,
+        "categories": [
+            "形 ぼう",
+            "形 四角",
+            "建物"
+        ]
+    },
+    {
+        "text": "とんぼ",
+        "yomi": "とんぼ",
+        "difficulty": 2,
+        "categories": [
+            "形 ぼう",
+            "生き物",
+            "虫"
+        ]
+    },
+    {
+        "text": "ハート",
+        "yomi": "はーと",
+        "difficulty": 1,
+        "categories": [
+            "形 まる"
+        ]
+    },
+    {
+        "text": "おしり",
+        "yomi": "おしり",
+        "difficulty": 1,
+        "categories": [
+            "形 まる"
+        ]
+    },
+    {
+        "text": "桃",
+        "yomi": "もも",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "果物"
+        ]
+    },
+    {
+        "text": "せんべい",
+        "yomi": "せんべい",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "食事"
+        ]
+    },
+    {
+        "text": "栗",
+        "yomi": "くり",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "食事"
+        ]
+    },
+    {
+        "text": "ケーキ",
+        "yomi": "けーき",
+        "difficulty": 2,
+        "categories": [
+            "形 まる",
+            "イベント"
+        ]
+    },
+    {
+        "text": "ゆきだるま",
+        "yomi": "ゆきだるま",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "形 さんかく"
+        ]
+    },
+    {
+        "text": "いちご",
+        "yomi": "いちご",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "形 さんかく",
+            "果物"
+        ]
+    },
+    {
+        "text": "アイス",
+        "yomi": "あいす",
+        "difficulty": 2,
+        "categories": [
+            "形 まる",
+            "形 さんかく",
+            "食事"
+        ]
+    },
+    {
+        "text": "猫",
+        "yomi": "ねこ",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "形 さんかく",
+            "生き物"
+        ]
+    },
+    {
+        "text": "風船",
+        "yomi": "ふうせん",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "形 ひも"
+        ]
+    },
+    {
+        "text": "キノコ",
+        "yomi": "きのこ",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "形 ぼう"
+        ]
+    },
+    {
+        "text": "双眼鏡",
+        "yomi": "そうがんきょう",
+        "difficulty": 3,
+        "categories": [
+            "形 まる",
+            "形 ぼう"
+        ]
+    },
+    {
+        "text": "りんご",
+        "yomi": "りんご",
+        "difficulty": 1,
+        "categories": [
+            "形 まる",
+            "形 ぼう",
+            "果物"
+        ]
+    },
+    {
+        "text": "おにぎり",
+        "yomi": "おにぎり",
+        "difficulty": 2,
+        "categories": [
+            "形 まる",
+            "形 四角"
+        ]
+    },
+    {
+        "text": "サッカー",
+        "yomi": "さっかー",
+        "difficulty": 3,
+        "categories": [
+            "形 まる",
+            "形 四角",
+            "スポーツ"
+        ]
+    },
+    {
+        "text": "本",
+        "yomi": "ほん",
+        "difficulty": 2,
+        "categories": [
+            "形 四角"
+        ]
+    },
+    {
+        "text": "プレゼント",
+        "yomi": "ぷれぜんと",
+        "difficulty": 3,
+        "categories": [
+            "形 四角"
+        ]
+    },
+    {
+        "text": "消しゴム",
+        "yomi": "けしごむ",
+        "difficulty": 1,
+        "categories": [
+            "形 四角"
+        ]
+    },
+    {
+        "text": "ロボット",
+        "yomi": "ろぼっと",
+        "difficulty": 3,
+        "categories": [
+            "形 四角",
+            "ファンタジー"
+        ]
+    },
+    {
+        "text": "ドア",
+        "yomi": "どあ",
+        "difficulty": 1,
+        "categories": [
+            "形 四角",
+            "形 アーチ"
+        ]
+    },
+    {
+        "text": "石ころ",
+        "yomi": "いしころ",
+        "difficulty": 2,
+        "categories": [
+            "形 四角",
+            "形 つぶつぶ"
+        ]
+    },
+    {
+        "text": "金庫",
+        "yomi": "きんこ",
+        "difficulty": 3,
+        "categories": [
+            "形 四角",
+            "形 まる"
+        ]
+    },
+    {
+        "text": "カメラ",
+        "yomi": "かめら",
+        "difficulty": 3,
+        "categories": [
+            "形 四角",
+            "形 まる"
+        ]
+    },
+    {
+        "text": "豆腐",
+        "yomi": "とうふ",
+        "difficulty": 1,
+        "categories": [
+            "形 四角",
+            "食事"
+        ]
+    },
+    {
+        "text": "座布団",
+        "yomi": "ざぶとん",
+        "difficulty": 2,
+        "categories": [
+            "形 四角",
+            "人"
+        ]
+    },
+    {
+        "text": "布団",
+        "yomi": "ふとん",
+        "difficulty": 2,
+        "categories": [
+            "形 四角",
+            "人"
+        ]
+    },
+    {
+        "text": "アーモンド",
+        "yomi": "あーもんど",
+        "difficulty": 1,
+        "categories": [
+            "形 楕円",
+            "食事"
+        ]
+    },
+    {
+        "text": "はっぱ",
+        "yomi": "はっぱ",
+        "difficulty": 1,
+        "categories": [
+            "形 楕円"
+        ]
+    },
+    {
+        "text": "ラグビー",
+        "yomi": "らぐびー",
+        "difficulty": 2,
+        "categories": [
+            "形 楕円",
+            "スポーツ"
+        ]
+    },
+    {
+        "text": "レモン",
+        "yomi": "れもん",
+        "difficulty": 1,
+        "categories": [
+            "形 楕円",
+            "果物"
+        ]
+    },
+    {
+        "text": "かぶとむし",
+        "yomi": "かぶとむし",
+        "difficulty": 3,
+        "categories": [
+            "形 楕円",
+            "形 ぼう",
+            "虫"
+        ]
+    },
+    {
+        "text": "目",
+        "yomi": "め",
+        "difficulty": 2,
+        "categories": [
+            "形 楕円",
+            "形 まる"
+        ]
+    },
+    {
+        "text": "ハンバーグ",
+        "yomi": "はんばーぐ",
+        "difficulty": 2,
+        "categories": [
+            "形 楕円",
+            "食事"
+        ]
+    },
+    {
+        "text": "魚",
+        "yomi": "さかな",
+        "difficulty": 2,
+        "categories": [
+            "形 楕円",
+            "生き物"
+        ]
+    },
+    {
+        "text": "社長",
+        "yomi": "しゃちょう",
+        "difficulty": 3,
+        "categories": [
+            "人"
+        ]
+    },
+    {
+        "text": "王様",
+        "yomi": "おうさま",
+        "difficulty": 3,
+        "categories": [
+            "人"
+        ]
+    },
+    {
+        "text": "ピクニック",
+        "yomi": "ぴくにっく",
+        "difficulty": 3,
+        "categories": [
+            "人",
+            "イベント"
+        ]
+    },
+    {
+        "text": "ケンカ",
+        "yomi": "けんか",
+        "difficulty": 3,
+        "categories": [
+            "人",
+            "イベント"
+        ]
+    },
+    {
+        "text": "幽霊",
+        "yomi": "ゆうれい",
+        "difficulty": 3,
+        "categories": [
+            "人",
+            "ファンタジー"
+        ]
+    },
+    {
+        "text": "忍者",
+        "yomi": "にんじゃ",
+        "difficulty": 3,
+        "categories": [
+            "人",
+            "ファンタジー"
+        ]
+    },
+    {
+        "text": "うちゅう人",
+        "yomi": "宇宙人",
+        "difficulty": 3,
+        "categories": [
+            "人",
+            "ファンタジー",
+            "生き物"
+        ]
+    },
+    {
+        "text": "ランナー",
+        "yomi": "らんなー",
+        "difficulty": 3,
+        "categories": [
+            "人",
+            "形 四角",
+            "スポーツ"
+        ]
+    },
+    {
+        "text": "ライオン",
+        "yomi": "らいおん",
+        "difficulty": 3,
+        "categories": [
+            "生き物",
+            "形 まる",
+            "形 ひも"
+        ]
     }
 ]
